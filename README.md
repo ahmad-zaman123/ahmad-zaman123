@@ -31,7 +31,6 @@ Backend-focused software engineer with hands-on experience in **Django, Django R
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
 
 ---
 
@@ -59,43 +58,48 @@ Backend-focused software engineer with hands-on experience in **Django, Django R
 
 ## 🚀 Featured Projects
 
-### 🛒 Blissful — E-commerce Web App
-**Tech:** React.js, JavaScript, Tailwind CSS, Bootstrap  
-🔗 https://blissful-template.vercel.app/
-
-- Built a responsive and modern e-commerce frontend for beauty & skincare products
-- Implemented clean UI components and smooth navigation
-- Focused on user experience, responsiveness, and reusable components
-
----
-
-### 🧩 J. Website Template — Reusable E-commerce Template
-**Tech:** React.js, HTML, CSS, JavaScript, Tailwind CSS, Bootstrap  
-🔗 https://j-template.vercel.app/
-
-- Developed a fully responsive, reusable e-commerce template
-- Emphasized mobile-first design and clean UI patterns
-- Designed for easy customization and scalability
-
----
-
 ### 🏢 Prison Management System — Full-Stack Application
 **Tech:** React.js, Node.js, Express.js, MongoDB  
 🔗 https://prison-management-system-ravd.vercel.app/
 
-- Built a full-stack management system for prison operations
-- Features included:
+- Designed and implemented **RESTful APIs** for core prison operations
+- Built backend logic for:
   - Prisoner & staff management
   - Visitor scheduling
-  - Healthcare tracking
-- Designed RESTful APIs and handled backend–frontend integration
+  - Healthcare record tracking
+- Handled **backend–frontend integration**, request validation, and data modeling
+- Focused on scalable API design and clean separation of concerns
 
 ---
 
-## 📈 GitHub Stats
+### ⚙️ Backend APIs — Django & Django REST Framework (Internship)
+**Tech:** Python, Django, Django REST Framework, PostgreSQL  
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ahmad-zaman123&show_icons=true&theme=github_dark)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ahmad-zaman123&layout=compact&theme=github_dark)
+- Developed and maintained **production-ready REST APIs**
+- Implemented authentication, validation, and permission handling
+- Optimized API structure and improved performance and reliability
+- Followed clean code practices and backend best practices
+- Collaborated using Git/GitHub and tested APIs via Postman
+
+---
+
+### 🛒 Blissful — E-commerce Web App (Frontend Project)
+**Tech:** React.js, JavaScript, Tailwind CSS, Bootstrap  
+🔗 https://blissful-template.vercel.app/
+
+- Built a responsive and modern e-commerce frontend
+- Integrated reusable UI components with clean layout structure
+- Focused on responsiveness, accessibility, and smooth user experience
+
+---
+
+### 🧩 J. Website Template — E-commerce Web App (Frontend Project)
+**Tech:** React.js, HTML, CSS, JavaScript, Tailwind CSS, Bootstrap  
+🔗 https://j-template.vercel.app/
+
+- Developed a reusable, mobile-first e-commerce template
+- Emphasized clean UI patterns and component reusability
+- Designed for easy customization and rapid project setup
 
 ---
 
