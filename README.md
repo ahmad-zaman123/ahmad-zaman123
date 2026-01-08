@@ -113,7 +113,6 @@ Backend-focused software engineer with hands-on experience in **Django, Django R
 
 ## 🤝 Connect With Me
 
-- 🧑‍💻 GitHub: https://github.com/ahmad-zaman123
 - 💼 LinkedIn: https://www.linkedin.com/in/ahmad-zaman-228879285/
 - 📧 Email: ahmadzamannn@gmail.com
 
