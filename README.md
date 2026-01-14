@@ -75,11 +75,10 @@ Backend-focused software engineer with hands-on experience in **Django, Django R
 ### ⚙️ Backend APIs — Django & Django REST Framework (Internship)
 **Tech:** Python, Django, Django REST Framework, PostgreSQL  
 
-- Developed and maintained **production-ready REST APIs**
-- Implemented authentication, validation, and permission handling
-- Optimized API structure and improved performance and reliability
-- Followed clean code practices and backend best practices
-- Collaborated using Git/GitHub and tested APIs via Postman
+- Developed and maintained **RESTful APIs** using **Django** and **Django REST Framework**, implementing **authentication**, **permissions**, **filtering**, and **pagination**.
+- Built **transactional workflows**, **financial reports**, and **automated processes** using **ORM queries** and **Celery**.
+- Applied **caching**, **logging**, and **middleware** for performance and reliability, and wrote **unit/API tests** to ensure stability.
+- Collaborated using **Git/GitHub** for version control, code reviews, and feature implementation.
 
 ---
 
