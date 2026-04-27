@@ -16,29 +16,25 @@ Backend-focused software engineer with hands-on experience in **Django, Django R
 ![Express](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)
 ![Celery](https://img.shields.io/badge/Celery-37814A?style=flat&logo=celery&logoColor=white)
 
----
-
-### 🎨 Frontend (Working Knowledge)
+### 🎨 Frontend
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
----
-
 ### 🗄 Databases & Caching
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
-
----
 
 ### ⚙️ DevOps & Tools
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
 ![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=flat&logo=pycharm&logoColor=white)
@@ -47,66 +43,54 @@ Backend-focused software engineer with hands-on experience in **Django, Django R
 
 ## 💼 What I Do
 
-- Design & build RESTful APIs using Django REST Framework & Express
-- Optimize database queries and resolve performance bottlenecks
-- Implement authentication & authorization
+- Design & build RESTful APIs using Django REST Framework and Express
+- Build ETL pipelines and async / background workflows with Celery
+- Integrate third-party services — payment gateways, messaging APIs, OpenAI LLMs
+- Optimize ORM queries and resolve performance bottlenecks
+- Implement authentication, authorization, and webhook signature verification
 - Write clean, testable, and maintainable backend code
-- Work with async tasks, background jobs, and API integrations
-- Collaborate effectively within cross-functional teams
+
+---
+
+## 🧑‍💻 Experience
+
+### Associate Software Engineer — Barq Dev  ·  Nov 2025 – Present
+**Tech:** Python, Django, Django REST Framework, PostgreSQL, Celery, OpenAI
+
+- Designed and shipped **scalable RESTful APIs** with Django REST Framework — authentication, permissions, filtering, pagination
+- Built **transactional workflows** with optimized ORM queries, improving response times and database efficiency
+- Ran async / background jobs with **Celery** and built **ETL pipelines** for data extraction, transformation, and loading
+- Integrated **OpenAI LLMs** and **Text-to-Speech** for intelligent automation and audio-based interactions
+- Applied **caching, logging, and middleware** for performance, monitoring, and reliability
+- Collaborated via **Git / GitHub** with code reviews and feature-branch workflows
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🏢 Prison Management System — Full-Stack Application
-**Tech:** React.js, Node.js, Express.js, MongoDB  
+### 🛒 Blissful — Full-Stack E-commerce Storefront
+**Tech:** Node.js, Express, MongoDB, Mongoose, React, Safepay
 
-🔗 https://prison-management-system-ravd.vercel.app/
+[![Live Demo](https://img.shields.io/badge/Live_Demo-22c55e?style=for-the-badge&logo=vercel&logoColor=white)](https://blissful-template.vercel.app/)
+[![Source Code](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahmad-zaman123/Blissful-Template)
 
-- Designed and implemented **RESTful APIs** for core prison operations
-- Built backend logic for:
-  - Prisoner & staff management
-  - Visitor scheduling
-  - Healthcare record tracking
-- Handled **backend–frontend integration**, request validation, and data modeling
-- Focused on scalable API design and clean separation of concerns
+- Designed and built a **REST API** (Express + Mongoose) covering products, cart, orders, and payments
+- Integrated **Safepay** for live card payments with **HMAC-verified webhooks** that auto-update order status — no client polling
+- Implemented a **Cash-on-Delivery** fallback and a **session-based MongoDB cart** (no login required)
+- Added server-side product search (regex), category / skin-concern filtering, and price-range queries with stock toggles
 
 ---
 
-### ⚙️ Backend APIs — Django & Django REST Framework (Internship)
-**Tech:** Python, Django, Django REST Framework, PostgreSQL  
+### 💬 Expense Splitter Bot — WhatsApp + Web Chat
+**Tech:** Node.js, Vercel Serverless, Upstash Redis, React, WhatsApp Business Cloud API
 
-- Developed and maintained **RESTful APIs** using **Django** and **Django REST Framework**, implementing **authentication**, **permissions**, **filtering**, and **pagination**.
-- Built **transactional workflows**, **financial reports**, and **automated processes** using **ORM queries** and **Celery**.
-- Applied **caching**, **logging**, and **middleware** for performance and reliability, and wrote **unit/API tests** to ensure stability.
-- Collaborated using **Git/GitHub** for version control, code reviews, and feature implementation.
+[![Live Demo](https://img.shields.io/badge/Live_Demo-22c55e?style=for-the-badge&logo=vercel&logoColor=white)](https://expense-splitter-bot-kgsa.vercel.app/)
+[![Source Code](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahmad-zaman123/expense-splitter-bot)
 
----
-
-  ### 🛒 Blissful — Full-Stack E-commerce Storefront
-  **Tech:** Node.js, Express, MongoDB, Mongoose, React, Safepay
-  
-  🔗 https://blissful-template.vercel.app/
-
-  - Designed and built a **REST API** (Express + Mongoose) covering products, cart, orders, and
-  payments
-  - Integrated **Safepay** for live card payments with **HMAC-verified webhooks** that auto-update
-  order status — no client polling
-  - Implemented a **Cash-on-Delivery** fallback and a **session-based MongoDB cart** (no login
-  required)
-  - Added server-side product search (regex), category / skin-concern filtering, and price-range
-  queries with stock toggles
-
----
-
-### 🧩 J. Website Template — E-commerce Web App (Frontend Project)
-**Tech:** React.js, HTML, CSS, JavaScript, Tailwind CSS, Bootstrap 
-
-🔗 https://j-template.vercel.app/
-
-- Developed a reusable, mobile-first e-commerce template
-- Emphasized clean UI patterns and component reusability
-- Designed for easy customization and rapid project setup
+- Built a bill-splitting bot accessible via **WhatsApp** and a **web chat**, both routed through a single shared command handler (`add` / `list` / `split` / `reset`)
+- Implemented a **minimum-transactions settlement algorithm** — greedily matches the biggest creditor to the biggest debtor so groups settle in the fewest transfers
+- Stored **per-user sessions in Upstash Redis** keyed by phone number (WhatsApp) or browser (web), so in-progress splits survive restarts and multiple groups don't collide
+- Verified the **Meta WhatsApp Cloud webhook** and deployed the entire app — webhook + web UI — as serverless functions on Vercel under one domain
 
 ---
 
@@ -121,13 +105,8 @@ Backend-focused software engineer with hands-on experience in **Django, Django R
 ## 🤝 Connect With Me
 
 - 💼 LinkedIn: https://www.linkedin.com/in/ahmad-zaman-228879285/
+- 🐙 GitHub: https://github.com/ahmad-zaman123
 - 📧 Email: ahmadzamannn@gmail.com
-
----
-
-## 🧠 Engineering Mindset
-
-> *Write code for humans first, machines second.*
 
 ---
 
