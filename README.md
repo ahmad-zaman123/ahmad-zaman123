@@ -60,6 +60,7 @@ Backend-focused software engineer with hands-on experience in **Django, Django R
 
 ### 🏢 Prison Management System — Full-Stack Application
 **Tech:** React.js, Node.js, Express.js, MongoDB  
+
 🔗 https://prison-management-system-ravd.vercel.app/
 
 - Designed and implemented **RESTful APIs** for core prison operations
@@ -82,18 +83,25 @@ Backend-focused software engineer with hands-on experience in **Django, Django R
 
 ---
 
-### 🛒 Blissful — E-commerce Web App (Frontend Project)
-**Tech:** React.js, JavaScript, Tailwind CSS, Bootstrap  
-🔗 https://blissful-template.vercel.app/
+  ### 🛒 Blissful — Full-Stack E-commerce Storefront
+  **Tech:** Node.js, Express, MongoDB, Mongoose, React, Safepay
+  
+  🔗 https://blissful-template.vercel.app/
 
-- Built a responsive and modern e-commerce frontend
-- Integrated reusable UI components with clean layout structure
-- Focused on responsiveness, accessibility, and smooth user experience
+  - Designed and built a **REST API** (Express + Mongoose) covering products, cart, orders, and
+  payments
+  - Integrated **Safepay** for live card payments with **HMAC-verified webhooks** that auto-update
+  order status — no client polling
+  - Implemented a **Cash-on-Delivery** fallback and a **session-based MongoDB cart** (no login
+  required)
+  - Added server-side product search (regex), category / skin-concern filtering, and price-range
+  queries with stock toggles
 
 ---
 
 ### 🧩 J. Website Template — E-commerce Web App (Frontend Project)
-**Tech:** React.js, HTML, CSS, JavaScript, Tailwind CSS, Bootstrap  
+**Tech:** React.js, HTML, CSS, JavaScript, Tailwind CSS, Bootstrap 
+
 🔗 https://j-template.vercel.app/
 
 - Developed a reusable, mobile-first e-commerce template
