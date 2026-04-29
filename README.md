@@ -94,6 +94,20 @@ Backend-focused software engineer with hands-on experience in **Django, Django R
 
 ---
 
+## 📊 GitHub Stats   
+
+  <p align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=ahmad-zaman123&show_icons=true&count_  private=true&include_all_commits=true&hide_border=false&theme=default" height="180"/>
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=ahmad-zaman123&hide_border=false&t  heme=default" height="180"/>
+  </p>
+
+  <p align="center">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahmad-zaman123&layout=comp  act&hide_border=false&theme=default" height="160"/>
+  </p>
+
+
+---
+
 ## 🌱 Currently Exploring
 
 - Advanced Django performance optimization
