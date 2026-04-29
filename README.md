@@ -97,13 +97,13 @@ Backend-focused software engineer with hands-on experience in **Django, Django R
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ahmad-zaman123&show_icons=true&count_  private=true&include_all_commits=true&cb=2" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=ahmad-zaman123&show_icons=true&count_private=true&include_all_commits=true&cb=2" height="180"/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=ahmad-zaman123&cb=2" 
 height="180"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahmad-zaman123&layout=comp  act&cb=2" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ahmad-zaman123&layout=compact&cb=2" height="160"/>
 </p>
 
 ---
