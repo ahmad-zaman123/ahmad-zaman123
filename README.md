@@ -54,15 +54,17 @@ Backend-focused software engineer with hands-on experience in **Django, Django R
 
 ## 🧑‍💻 Experience
 
-### Associate Software Engineer — Barq Dev  ·  Nov 2025 – Present
-**Tech:** Python, Django, Django REST Framework, PostgreSQL, Celery, OpenAI
+### Associate Software Engineer — Barq Dev · Nov 2025 – Present
 
-- Designed and shipped **scalable RESTful APIs** with Django REST Framework — authentication, permissions, filtering, pagination
-- Built **transactional workflows** with optimized ORM queries, improving response times and database efficiency
-- Ran async / background jobs with **Celery** and built **ETL pipelines** for data extraction, transformation, and loading
-- Integrated **OpenAI LLMs** and **Text-to-Speech** for intelligent automation and audio-based interactions
-- Applied **caching, logging, and middleware** for performance, monitoring, and reliability
-- Collaborated via **Git / GitHub** with code reviews and feature-branch workflows
+**Tech:** Python, Django, Django REST Framework, PostgreSQL, Redis, Celery, Django Channels, WebSockets, OpenAI, FCM
+
+* Designed and developed **scalable RESTful APIs** using Python, Django, and Django REST Framework (DRF), implementing authentication, permissions, filtering, and pagination
+* Built **backend business logic and transactional workflows** with optimized ORM queries on PostgreSQL, improving API response times, database efficiency, and scalability
+* Implemented **asynchronous task processing** and background jobs using Celery, and developed ETL pipelines for efficient data extraction, transformation, and loading
+* Integrated **OpenAI Large Language Models (LLMs)** and Text-to-Speech (TTS) services to deliver AI-powered automation, intelligent features, and audio-based user interactions
+* Applied **Redis caching, logging, and custom middleware** to enhance system performance, observability, and reliability
+* Developed a **real-time notification platform** using Django Channels, WebSockets, Redis, Celery, and FCM push notifications, with JWT authentication and user presence tracking
+* Collaborated within an **Agile development team** using Git and GitHub for version control, code reviews, and feature-branch workflows
 
 ---
 
