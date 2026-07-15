@@ -70,29 +70,45 @@ Backend-focused software engineer with hands-on experience in **Django, Django R
 
 ## 🚀 Featured Projects
 
-### 🛒 Blissful — Full-Stack E-commerce Storefront
-**Tech:** Node.js, Express, MongoDB, Mongoose, React, Safepay
+### 🔗 Unfurl — Social Preview Cards as an API
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-22c55e?style=for-the-badge&logo=vercel&logoColor=white)](https://blissful-template.vercel.app/)
-[![Source Code](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahmad-zaman123/Blissful-Template)
+**Tech:** Django REST Framework, PostgreSQL (Neon), Redis (Upstash), React, Pillow
 
-- Designed and built a **REST API** (Express + Mongoose) covering products, cart, orders, and payments
-- Integrated **Safepay** for live card payments with **HMAC-verified webhooks** that auto-update order status — no client polling
-- Implemented a **Cash-on-Delivery** fallback and a **session-based MongoDB cart** (no login required)
-- Added server-side product search (regex), category / skin-concern filtering, and price-range queries with stock toggles
+[![Live Demo](https://img.shields.io/badge/Live_Demo-22c55e?style=for-the-badge&logo=vercel&logoColor=white)](https://unfurl-one.vercel.app/) [![Source Code](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahmad-zaman123/Unfurl)
+
+- Designed a **create/serve split** — an authenticated endpoint mints a signed URL, while the actual `og:image` is served from a public, unauthenticated, crawler-friendly endpoint
+- Implemented **HMAC-signed URLs** that double as cache keys — any tampered parameter is rejected with a 403, and identical requests are served from cache
+- Built a **Stripe-style API key system** with SHA-256 hashed keys, showing the raw key only once, alongside a custom DRF auth class for `Bearer` token support
+- Added **per-key rate limiting and plan-based quotas** (fixed-window, Redis-backed) with standard `X-RateLimit-*` / `Retry-After` headers
+- Hardened the logo-fetch feature against **SSRF** — blocks private IP ranges and cloud metadata endpoints, disallows redirects, and enforces size/time limits
+
+--- 
+
+### 📄 Paper-Mind — Chat With Your Documents (RAG)
+
+**Tech:** Django REST Framework, PostgreSQL + pgvector, Google Gemini, React (Vite)
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-22c55e?style=for-the-badge&logo=vercel&logoColor=white)](https://paper-mind-sage.vercel.app) [![Source Code](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahmad-zaman123/Paper-Mind)
+
+- Built a **retrieval-augmented generation (RAG) pipeline** — uploaded PDFs, Word docs, and text files are extracted, chunked, and embedded automatically
+- Implemented **vector similarity search** using PostgreSQL + pgvector (Neon in production) for fast nearest-neighbour retrieval over document chunks
+- Integrated **Google Gemini** for both embeddings (`gemini-embedding-001`) and answer generation (`gemini-2.5-flash`), with every answer **cited back to the exact source passage**
+- Added **multi-turn conversations** — the system retains prior context so follow-up questions resolve correctly against the same document
+- Secured the app with **JWT auth** so each user's documents and chats stay private by default
 
 ---
 
-### 💬 Expense Splitter Bot — WhatsApp + Web Chat
-**Tech:** Node.js, Vercel Serverless, Upstash Redis, React, WhatsApp Business Cloud API
+### 🛒 Blissful — Full-Stack E-commerce Storefront
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-22c55e?style=for-the-badge&logo=vercel&logoColor=white)](https://expense-splitter-bot-kgsa.vercel.app/)
-[![Source Code](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahmad-zaman123/expense-splitter-bot)
+**Tech:** Node.js, Express, MongoDB (Mongoose), React, Safepay
 
-- Built a bill-splitting bot accessible via **WhatsApp** and a **web chat**, both routed through a single shared command handler (`add` / `list` / `split` / `reset`)
-- Implemented a **minimum-transactions settlement algorithm** — greedily matches the biggest creditor to the biggest debtor so groups settle in the fewest transfers
-- Stored **per-user sessions in Upstash Redis** keyed by phone number (WhatsApp) or browser (web), so in-progress splits survive restarts and multiple groups don't collide
-- Verified the **Meta WhatsApp Cloud webhook** and deployed the entire app — webhook + web UI — as serverless functions on Vercel under one domain
+[![Live Demo](https://img.shields.io/badge/Live_Demo-22c55e?style=for-the-badge&logo=vercel&logoColor=white)](https://blissful-template.vercel.app/) [![Source Code](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahmad-zaman123/Blissful-Template)
+
+- Designed and built a **REST API** (Express + Mongoose) covering products, cart, orders, and payments for a beauty/skincare storefront
+- Integrated **Safepay** for live card payments with **HMAC-verified webhooks** that auto-update order status server-side — no client polling required
+- Implemented a **Cash-on-Delivery fallback** and a **session-based MongoDB cart**, so customers can shop and check out without creating an account
+- Built **server-side product search** (regex-based), category and skin-concern filtering, and price-range queries with real-time stock toggles
+- Delivered the full flow **end-to-end** — catalog, cart, checkout, and payment confirmation — as a single deployable full-stack app
 
 ---
 
