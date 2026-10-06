@@ -1,8 +1,14 @@
 # 👋 Hi, I'm Ahmad Zaman
 
-🚀 **Backend Engineer | Python, Django & REST APIs | Cloud & Endpoint Security | Async & AI Backends**
+🚀 **Backend Engineer · Python & Django · Cloud and endpoint security**
 
-Backend engineer with 1+ years shipping production **Python APIs (Django, DRF, Flask)** across security and fintech domains. I've built **EDR / endpoint-security tooling**, a **multi-cloud identity-scanning pipeline** spanning 8 providers, and **async, real-time systems** (Celery, WebSockets, Redis), and I integrate **OpenAI and RAG pipelines** into production systems. I care about clean, scalable, production-ready backends.
+Building production **Python APIs (Django, DRF, Flask)**, 1+ years in.
+
+- 🔐 **Now:** EDR tooling and a cloud and SaaS identity-scanning pipeline across 8 platforms
+- ⚡ **Before:** async, real-time systems (Celery, WebSockets, Redis) and OpenAI integrations at Barq
+- 🧠 **On the side:** RAG and API projects, such as Unfurl and Paper-Mind
+
+I care about clean, scalable, production-ready backends.
 
 ---
 
@@ -43,8 +49,8 @@ Backend engineer with 1+ years shipping production **Python APIs (Django, DRF, F
 
 **Tech:** Python, Django, PowerShell, AWS, GCP, Azure, Microsoft Graph, Wazuh, HMAC
 
-* Designed and built a **BitLocker recovery-key escrow system** with remote fetch, encrypt-at-rest, and unlock endpoints driven by automated PowerShell scripts
-* Designed and built a **multi-cloud identity-scanning pipeline** (AWS, GCP, Azure, Slack, GitHub, Dropbox, Zoom, Google Workspace) with standardized account and access fields
+* Designed and built a **secure recovery-key management system** for managed devices, with encrypted storage and automated PowerShell workflows
+* Designed and built a **cloud and SaaS identity-scanning pipeline** (AWS, GCP, Azure, Slack, GitHub, Dropbox, Zoom, Google Workspace) with standardized account and access fields
 * Implemented **device-vs-cloud identity matching** and **access-exposure detection** to surface cross-platform security gaps
 * Owned reliability of the **macOS EDR agent pipeline**, fixing cross-platform data bugs and building a **cross-OS patch-tracking sync** mechanism
 * Built **real-time device-offline email alerting** via **HMAC-signed Wazuh webhooks**
@@ -58,15 +64,15 @@ Backend engineer with 1+ years shipping production **Python APIs (Django, DRF, F
 * Implemented **asynchronous processing pipelines** with Celery for background jobs, ETL workflows, pantry image scanning, and URL-to-recipe ingestion
 * Developed a **real-time notification platform** using Django Channels, WebSockets, Redis, Celery, and FCM push notifications, with JWT authentication and user presence tracking
 * Integrated **OpenAI LLMs** and **Text-to-Speech (Piper TTS)** for intelligent automation and audio-based user experiences, with caching and asynchronous processing
-* Applied **Redis caching, logging, and custom middleware** to improve performance, reliability, and observability
-* Eliminated **N+1 queries** across recipes, cart, pantry, and admin modules using reusable ORM optimization patterns
-* Collaborated within an **Agile team** using Git and GitHub for version control, code reviews, and feature-branch workflows
+* Eliminated **N+1 queries** across recipes, cart, pantry, and admin modules using reusable ORM optimization patterns, and added **Redis caching, logging, and custom middleware** for performance and observability
 
 ---
 
 ## 🚀 Featured Projects
 
 ### 🔗 Unfurl — Social Preview Cards as an API
+
+*An API that turns any URL into a social preview image, with signed URLs, API keys and rate limiting.*
 
 **Tech:** Django REST Framework, PostgreSQL (Neon), Redis (Upstash), React, Pillow
 
@@ -82,6 +88,8 @@ Backend engineer with 1+ years shipping production **Python APIs (Django, DRF, F
 
 ### 📄 Paper-Mind — Chat With Your Documents (RAG)
 
+*Upload documents and chat with them. Every answer is cited to the exact passage it came from.*
+
 **Tech:** Django REST Framework, PostgreSQL + pgvector, Google Gemini, React (Vite)
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-22c55e?style=for-the-badge&logo=vercel&logoColor=white)](https://paper-mind-sage.vercel.app) [![Source Code](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahmad-zaman123/Paper-Mind)
@@ -96,15 +104,15 @@ Backend engineer with 1+ years shipping production **Python APIs (Django, DRF, F
 
 ### 🛒 Blissful — Full-Stack E-commerce Storefront
 
+*A full-stack skincare storefront with cart, checkout and live card payments.*
+
 **Tech:** Node.js, Express, MongoDB (Mongoose), React, Safepay
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-22c55e?style=for-the-badge&logo=vercel&logoColor=white)](https://blissful-template.vercel.app/) [![Source Code](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahmad-zaman123/Blissful-Template)
 
-- Designed and built a **REST API** (Express + Mongoose) covering products, cart, orders, and payments for a beauty/skincare storefront
-- Integrated **Safepay** for live card payments with **HMAC-verified webhooks** that auto-update order status server-side — no client polling required
-- Implemented a **Cash-on-Delivery fallback** and a **session-based MongoDB cart**, so customers can shop and check out without creating an account
-- Built **server-side product search** (regex-based), category and skin-concern filtering, and price-range queries with real-time stock toggles
-- Delivered the full flow **end-to-end** — catalog, cart, checkout, and payment confirmation — as a single deployable full-stack app
+- Designed and built a **REST API** (Express + Mongoose) covering products, cart, orders, and payments
+- Integrated **Safepay** card payments with **HMAC-verified webhooks** that update order status server-side with no client polling, plus a **Cash-on-Delivery fallback**
+- Built a **session-based cart** so customers can check out without an account, with server-side search, category and skin-concern filters, price-range queries and real-time stock toggles
 
 ---
 
@@ -135,18 +143,14 @@ Backend engineer with 1+ years shipping production **Python APIs (Django, DRF, F
 
 ### 🎨 Frontend
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
 ### 🗄 Databases & Caching
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
 ![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
 ![FalkorDB](https://img.shields.io/badge/FalkorDB-Graph_DB-B22222?style=flat)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
 
 ### ⚙️ DevOps & Tools
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
@@ -155,32 +159,12 @@ Backend engineer with 1+ years shipping production **Python APIs (Django, DRF, F
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
-![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=flat&logo=pycharm&logoColor=white)
-
----
-
-## 💼 What I Do
-
-- Design & build RESTful APIs using Django REST Framework, Flask, and Express
-- Build multi-cloud identity and access-scanning pipelines that surface cross-platform security gaps
-- Develop endpoint-security (EDR) tooling, including device telemetry, patch tracking, and alerting
-- Build ETL pipelines and async / background workflows with Celery
-- Integrate third-party services — payment gateways, messaging APIs, OpenAI LLMs
-- Build RAG and LLM-powered features with vector search (pgvector)
-- Implement authentication, authorization, and HMAC webhook signature verification
-- Optimize ORM queries and resolve performance bottlenecks
-- Write clean, testable, and maintainable backend code
 
 ---
 
 ## 🌱 Currently Exploring
 
 - Endpoint security and EDR tooling
-- Cloud identity and access security across providers
+- Identity and access security across cloud and SaaS platforms
 - System design for scalable backend architectures
 - Async processing, background workers, and AI-powered backends
-
----
-
-⭐️ **If you find my work useful, feel free to follow or star my repositories!**
