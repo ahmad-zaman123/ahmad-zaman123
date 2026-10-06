@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Render the streak / numbers card from data/contributions.json (written daily by
-fetch_contributions.py) as a terminal-window SVG shown under the contribution heatmap.
+fetch_contributions.py) as a terminal-window SVG shown beside whoami.svg.
 
 Six stat tiles slide in and their numbers count up to the real value, then a
 monthly-contributions bar chart grows in underneath. The count-up is a stack of
@@ -28,7 +28,7 @@ INK = "#e6edf3"
 GREEN = "#39d353"
 BAR = "#26a641"
 
-W, H = 840, 800                      # standalone card (no portrait beside it)
+W, H = 840, 880                      # same canvas as whoami.svg so the two sit side by side
 PAD = 20
 TITLEBAR_H = 30
 COLS, ROWS = 2, 3

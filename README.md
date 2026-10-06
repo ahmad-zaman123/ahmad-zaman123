@@ -6,69 +6,34 @@ Backend engineer with 1+ years shipping production **Python APIs (Django, DRF, F
 
 ---
 
-## 🛠 Tech Stack
+## 🤝 Connect With Me
 
-### 🚀 Backend
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
-![DRF](https://img.shields.io/badge/Django_REST-ff1709?style=flat&logo=django&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)
-![Celery](https://img.shields.io/badge/Celery-37814A?style=flat&logo=celery&logoColor=white)
-
-### ☁️ Cloud & Security
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat&logo=googlecloud&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
-![Microsoft Graph](https://img.shields.io/badge/Microsoft_Graph-0078D4?style=flat&logo=microsoft&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat&logo=powershell&logoColor=white)
-![Wazuh](https://img.shields.io/badge/Wazuh-005571?style=flat&logoColor=white)
-![HMAC](https://img.shields.io/badge/HMAC-Signing-444444?style=flat)
-
-### 🤖 AI
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
-![Google Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-Pipelines-444444?style=flat)
-
-### 🎨 Frontend
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-
-### 🗄 Databases & Caching
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
-![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![FalkorDB](https://img.shields.io/badge/FalkorDB-Graph_DB-B22222?style=flat)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
-
-### ⚙️ DevOps & Tools
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
-![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=flat&logo=pycharm&logoColor=white)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ahmad--zaman-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmad-zaman-228879285/)
+[![GitHub](https://img.shields.io/badge/GitHub-ahmad--zaman123-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahmad-zaman123)
+[![Email](https://img.shields.io/badge/Email-ahmadzamannn@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ahmadzamannn@gmail.com)
 
 ---
 
-## 💼 What I Do
+## 📊 GitHub Activity
 
-- Design & build RESTful APIs using Django REST Framework, Flask, and Express
-- Build multi-cloud identity and access-scanning pipelines that surface cross-platform security gaps
-- Develop endpoint-security (EDR) tooling, including device telemetry, patch tracking, and alerting
-- Build ETL pipelines and async / background workflows with Celery
-- Integrate third-party services — payment gateways, messaging APIs, OpenAI LLMs
-- Build RAG and LLM-powered features with vector search (pgvector)
-- Implement authentication, authorization, and HMAC webhook signature verification
-- Optimize ORM queries and resolve performance bottlenecks
-- Write clean, testable, and maintainable backend code
+<!-- Heatmap + stats are regenerated daily by .github/workflows/update-profile-art.yml.
+     whoami.svg is static: edit scripts/render_whoami_svg.py and re-run it.
+     Both card SVGs are 840x880, so equal widths give equal heights. -->
+
+<div align="center">
+
+<img src="./contrib-heatmap.svg" width="860" alt="Ahmad's GitHub contribution graph — auto-refreshed daily" />
+
+<br><br>
+
+<table>
+<tr>
+<td valign="top"><img src="./whoami.svg" width="420" alt="Ahmad Zaman — whoami terminal card" /></td>
+<td valign="top"><img src="./stats.svg" width="420" alt="Ahmad's GitHub streak and contribution stats — auto-refreshed daily" /></td>
+</tr>
+</table>
+
+</div>
 
 ---
 
@@ -143,19 +108,69 @@ Backend engineer with 1+ years shipping production **Python APIs (Django, DRF, F
 
 ---
 
-## 📊 GitHub Activity
+## 🛠 Tech Stack
 
-<!-- Both SVGs are regenerated daily by .github/workflows/update-profile-art.yml -->
+### 🚀 Backend
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
+![DRF](https://img.shields.io/badge/Django_REST-ff1709?style=flat&logo=django&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-37814A?style=flat&logo=celery&logoColor=white)
 
-<div align="center">
+### ☁️ Cloud & Security
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat&logo=googlecloud&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
+![Microsoft Graph](https://img.shields.io/badge/Microsoft_Graph-0078D4?style=flat&logo=microsoft&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat&logo=powershell&logoColor=white)
+![Wazuh](https://img.shields.io/badge/Wazuh-005571?style=flat&logoColor=white)
+![HMAC](https://img.shields.io/badge/HMAC-Signing-444444?style=flat)
 
-<img src="./contrib-heatmap.svg" width="860" alt="Ahmad's GitHub contribution graph — auto-refreshed daily" />
+### 🤖 AI
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-Pipelines-444444?style=flat)
 
-<br><br>
+### 🎨 Frontend
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
-<img src="./stats.svg" width="560" alt="Ahmad's GitHub streak and contribution stats — auto-refreshed daily" />
+### 🗄 Databases & Caching
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
+![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![FalkorDB](https://img.shields.io/badge/FalkorDB-Graph_DB-B22222?style=flat)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
 
-</div>
+### ⚙️ DevOps & Tools
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
+![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=flat&logo=pycharm&logoColor=white)
+
+---
+
+## 💼 What I Do
+
+- Design & build RESTful APIs using Django REST Framework, Flask, and Express
+- Build multi-cloud identity and access-scanning pipelines that surface cross-platform security gaps
+- Develop endpoint-security (EDR) tooling, including device telemetry, patch tracking, and alerting
+- Build ETL pipelines and async / background workflows with Celery
+- Integrate third-party services — payment gateways, messaging APIs, OpenAI LLMs
+- Build RAG and LLM-powered features with vector search (pgvector)
+- Implement authentication, authorization, and HMAC webhook signature verification
+- Optimize ORM queries and resolve performance bottlenecks
+- Write clean, testable, and maintainable backend code
 
 ---
 
@@ -165,14 +180,6 @@ Backend engineer with 1+ years shipping production **Python APIs (Django, DRF, F
 - Cloud identity and access security across providers
 - System design for scalable backend architectures
 - Async processing, background workers, and AI-powered backends
-
----
-
-## 🤝 Connect With Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-ahmad--zaman-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmad-zaman-228879285/)
-[![GitHub](https://img.shields.io/badge/GitHub-ahmad--zaman123-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahmad-zaman123)
-[![Email](https://img.shields.io/badge/Email-ahmadzamannn@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ahmadzamannn@gmail.com)
 
 ---
 
