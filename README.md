@@ -1,8 +1,8 @@
 # 👋 Hi, I'm Ahmad Zaman
 
-🚀 **Backend Engineer | Django & REST APIs | MERN Stack | Scalable Systems**
+🚀 **Backend Engineer | Python, Django & REST APIs | Cloud & Endpoint Security | Async & AI Backends**
 
-Backend-focused software engineer with hands-on experience in **Django, Django REST Framework, and MERN stack development**. Passionate about building **clean, scalable, and production-ready APIs**, optimizing database queries, and designing maintainable backend systems that scale in real-world environments.
+Backend engineer with 1+ years shipping production **Python APIs (Django, DRF, Flask)** across security and fintech domains. I've built **EDR / endpoint-security tooling**, a **multi-cloud identity-scanning pipeline** spanning 8 providers, and **async, real-time systems** (Celery, WebSockets, Redis), and I integrate **OpenAI and RAG pipelines** into production systems. I care about clean, scalable, production-ready backends.
 
 ---
 
@@ -17,6 +17,20 @@ Backend-focused software engineer with hands-on experience in **Django, Django R
 ![Express](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)
 ![Celery](https://img.shields.io/badge/Celery-37814A?style=flat&logo=celery&logoColor=white)
 
+### ☁️ Cloud & Security
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat&logo=googlecloud&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
+![Microsoft Graph](https://img.shields.io/badge/Microsoft_Graph-0078D4?style=flat&logo=microsoft&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat&logo=powershell&logoColor=white)
+![Wazuh](https://img.shields.io/badge/Wazuh-005571?style=flat&logoColor=white)
+![HMAC](https://img.shields.io/badge/HMAC-Signing-444444?style=flat)
+
+### 🤖 AI
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-Pipelines-444444?style=flat)
+
 ### 🎨 Frontend
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
@@ -25,9 +39,11 @@ Backend-focused software engineer with hands-on experience in **Django, Django R
 
 ### 🗄 Databases & Caching
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
+![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![FalkorDB](https://img.shields.io/badge/FalkorDB-Graph_DB-B22222?style=flat)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
 
 ### ⚙️ DevOps & Tools
@@ -44,28 +60,42 @@ Backend-focused software engineer with hands-on experience in **Django, Django R
 
 ## 💼 What I Do
 
-- Design & build RESTful APIs using Django REST Framework and Express
+- Design & build RESTful APIs using Django REST Framework, Flask, and Express
+- Build multi-cloud identity and access-scanning pipelines that surface cross-platform security gaps
+- Develop endpoint-security (EDR) tooling, including device telemetry, patch tracking, and alerting
 - Build ETL pipelines and async / background workflows with Celery
 - Integrate third-party services — payment gateways, messaging APIs, OpenAI LLMs
+- Build RAG and LLM-powered features with vector search (pgvector)
+- Implement authentication, authorization, and HMAC webhook signature verification
 - Optimize ORM queries and resolve performance bottlenecks
-- Implement authentication, authorization, and webhook signature verification
 - Write clean, testable, and maintainable backend code
 
 ---
 
 ## 🧑‍💻 Experience
 
-### Associate Software Engineer — Barq Dev · Nov 2025 – Present
+### Backend Engineer — Broadstone Technologies, LLC · Aug 2026 – Present
 
-**Tech:** Python, Django, Django REST Framework, PostgreSQL, Redis, Celery, Django Channels, WebSockets, OpenAI, FCM
+**Tech:** Python, Django, PowerShell, AWS, GCP, Azure, Microsoft Graph, Wazuh, HMAC
+
+* Designed and built a **BitLocker recovery-key escrow system** with remote fetch, encrypt-at-rest, and unlock endpoints driven by automated PowerShell scripts
+* Designed and built a **multi-cloud identity-scanning pipeline** (AWS, GCP, Azure, Slack, GitHub, Dropbox, Zoom, Google Workspace) with standardized account and access fields
+* Implemented **device-vs-cloud identity matching** and **access-exposure detection** to surface cross-platform security gaps
+* Owned reliability of the **macOS EDR agent pipeline**, fixing cross-platform data bugs and building a **cross-OS patch-tracking sync** mechanism
+* Built **real-time device-offline email alerting** via **HMAC-signed Wazuh webhooks**
+
+### Associate Software Engineer — Barq Dev · Aug 2025 – Jul 2026
+
+**Tech:** Python, Django, Django REST Framework, PostgreSQL, Redis, Celery, Django Channels, WebSockets, OpenAI, Piper TTS, FCM
 
 * Designed and developed **scalable RESTful APIs** using Python, Django, and Django REST Framework (DRF), implementing authentication, permissions, filtering, and pagination
-* Built **backend business logic and transactional workflows** with optimized ORM queries on PostgreSQL, improving API response times, database efficiency, and scalability
-* Implemented **asynchronous task processing** and background jobs using Celery, and developed ETL pipelines for efficient data extraction, transformation, and loading
-* Integrated **OpenAI Large Language Models (LLMs)** and Text-to-Speech (TTS) services to deliver AI-powered automation, intelligent features, and audio-based user interactions
-* Applied **Redis caching, logging, and custom middleware** to enhance system performance, observability, and reliability
+* Built **backend business logic and transactional workflows** with optimized PostgreSQL ORM queries, improving performance and scalability across core modules
+* Implemented **asynchronous processing pipelines** with Celery for background jobs, ETL workflows, pantry image scanning, and URL-to-recipe ingestion
 * Developed a **real-time notification platform** using Django Channels, WebSockets, Redis, Celery, and FCM push notifications, with JWT authentication and user presence tracking
-* Collaborated within an **Agile development team** using Git and GitHub for version control, code reviews, and feature-branch workflows
+* Integrated **OpenAI LLMs** and **Text-to-Speech (Piper TTS)** for intelligent automation and audio-based user experiences, with caching and asynchronous processing
+* Applied **Redis caching, logging, and custom middleware** to improve performance, reliability, and observability
+* Eliminated **N+1 queries** across recipes, cart, pantry, and admin modules using reusable ORM optimization patterns
+* Collaborated within an **Agile team** using Git and GitHub for version control, code reviews, and feature-branch workflows
 
 ---
 
@@ -80,10 +110,10 @@ Backend-focused software engineer with hands-on experience in **Django, Django R
 - Designed a **create/serve split** — an authenticated endpoint mints a signed URL, while the actual `og:image` is served from a public, unauthenticated, crawler-friendly endpoint
 - Implemented **HMAC-signed URLs** that double as cache keys — any tampered parameter is rejected with a 403, and identical requests are served from cache
 - Built a **Stripe-style API key system** with SHA-256 hashed keys, showing the raw key only once, alongside a custom DRF auth class for `Bearer` token support
-- Added **per-key rate limiting and plan-based quotas** (fixed-window, Redis-backed) with standard `X-RateLimit-*` / `Retry-After` headers
+- Added **per-key rate limiting and plan-based quotas** (fixed-window, Redis-backed) with standard `X-RateLimit-*` / `Retry-After` headers, plus usage analytics for API consumers
 - Hardened the logo-fetch feature against **SSRF** — blocks private IP ranges and cloud metadata endpoints, disallows redirects, and enforces size/time limits
 
---- 
+---
 
 ### 📄 Paper-Mind — Chat With Your Documents (RAG)
 
@@ -124,7 +154,8 @@ Backend-focused software engineer with hands-on experience in **Django, Django R
 
 ## 🌱 Currently Exploring
 
-- Advanced Django performance optimization
+- Endpoint security and EDR tooling
+- Cloud identity and access security across providers
 - System design for scalable backend architectures
 - Async processing, background workers, and AI-powered backends
 
