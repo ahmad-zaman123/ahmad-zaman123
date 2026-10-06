@@ -143,12 +143,19 @@ Backend engineer with 1+ years shipping production **Python APIs (Django, DRF, F
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Activity
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ahmad-zaman123&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&cb=3" height="180"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ahmad-zaman123&theme=tokyonight&hide_border=true&cb=3" height="180"/>
-</p>
+<!-- Both SVGs are regenerated daily by .github/workflows/update-profile-art.yml -->
+
+<div align="center">
+
+<img src="./contrib-heatmap.svg" width="860" alt="Ahmad's GitHub contribution graph — auto-refreshed daily" />
+
+<br><br>
+
+<img src="./stats.svg" width="560" alt="Ahmad's GitHub streak and contribution stats — auto-refreshed daily" />
+
+</div>
 
 ---
 
@@ -163,9 +170,9 @@ Backend engineer with 1+ years shipping production **Python APIs (Django, DRF, F
 
 ## 🤝 Connect With Me
 
-- 💼 LinkedIn: https://www.linkedin.com/in/ahmad-zaman-228879285/
-- 🐙 GitHub: https://github.com/ahmad-zaman123
-- 📧 Email: ahmadzamannn@gmail.com
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ahmad--zaman-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmad-zaman-228879285/)
+[![GitHub](https://img.shields.io/badge/GitHub-ahmad--zaman123-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahmad-zaman123)
+[![Email](https://img.shields.io/badge/Email-ahmadzamannn@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ahmadzamannn@gmail.com)
 
 ---
 
