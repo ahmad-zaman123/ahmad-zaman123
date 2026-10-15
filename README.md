@@ -4,7 +4,7 @@
 
 Building production **Python APIs (Django, DRF, Flask)**, 1+ years in.
 
-- 🔐 **Now:** EDR tooling and a cloud and SaaS identity-scanning pipeline across 8 platforms
+- 🔐 **Now:** endpoint-security tooling and a cloud and SaaS identity-scanning pipeline across 8 platforms
 - ⚡ **Before:** async, real-time systems (Celery, WebSockets, Redis) and OpenAI integrations at Barq
 - 🧠 **On the side:** RAG and API projects, such as Unfurl and Paper-Mind
 
@@ -47,13 +47,13 @@ I care about clean, scalable, production-ready backends.
 
 ### Backend Engineer — Broadstone Technologies, LLC · Aug 2026 – Present
 
-**Tech:** Python, Django, PowerShell, AWS, GCP, Azure, Microsoft Graph, Wazuh, HMAC
+**Tech:** Python, Django, PowerShell, AWS, GCP, Azure, Microsoft Graph, HMAC
 
-* Designed and built a **secure recovery-key management system** for managed devices, with encrypted storage and automated PowerShell workflows
-* Designed and built a **cloud and SaaS identity-scanning pipeline** (AWS, GCP, Azure, Slack, GitHub, Dropbox, Zoom, Google Workspace) with standardized account and access fields
-* Implemented **device-vs-cloud identity matching** and **access-exposure detection** to surface cross-platform security gaps
-* Owned reliability of the **macOS EDR agent pipeline**, fixing cross-platform data bugs and building a **cross-OS patch-tracking sync** mechanism
-* Built **real-time device-offline email alerting** via **HMAC-signed Wazuh webhooks**
+* Designed and built an **escrow service for disk-encryption recovery keys**, with keys collected from devices, **encrypted at rest** and released only through authenticated endpoints
+* Designed and built a **cloud and SaaS identity-scanning pipeline** across 8 providers, with standardized account and access fields
+* Implemented **device-vs-cloud identity matching** and **access-exposure detection** to surface cross-platform security gaps across company devices and accounts
+* Owned reliability of an **endpoint-security data pipeline**, fixing cross-platform data bugs and building a **cross-OS patch-status sync** mechanism
+* Built **real-time device-offline email alerting** via **HMAC-signed webhooks**
 
 ### Associate Software Engineer — Barq Dev · Aug 2025 – Jul 2026
 
@@ -133,7 +133,6 @@ I care about clean, scalable, production-ready backends.
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
 ![Microsoft Graph](https://img.shields.io/badge/Microsoft_Graph-0078D4?style=flat&logo=microsoft&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat&logo=powershell&logoColor=white)
-![Wazuh](https://img.shields.io/badge/Wazuh-005571?style=flat&logoColor=white)
 ![HMAC](https://img.shields.io/badge/HMAC-Signing-444444?style=flat)
 
 ### 🤖 AI
@@ -164,7 +163,7 @@ I care about clean, scalable, production-ready backends.
 
 ## 🌱 Currently Exploring
 
-- Endpoint security and EDR tooling
+- Endpoint security tooling
 - Identity and access security across cloud and SaaS platforms
 - System design for scalable backend architectures
 - Async processing, background workers, and AI-powered backends
