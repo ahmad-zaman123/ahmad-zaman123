@@ -14,6 +14,7 @@ I care about clean, scalable, production-ready backends.
 
 ## 🤝 Connect With Me
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-ahmad--zaman--portfolio-2447D6?style=for-the-badge&logo=vercel&logoColor=white)](https://ahmad-zaman-portfolio-3x99.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ahmad--zaman-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmad-zaman-228879285/)
 [![GitHub](https://img.shields.io/badge/GitHub-ahmad--zaman123-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahmad-zaman123)
 [![Email](https://img.shields.io/badge/Email-ahmadzamannn@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ahmadzamannn@gmail.com)
