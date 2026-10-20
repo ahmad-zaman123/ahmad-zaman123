@@ -4,7 +4,7 @@
 
 Building production **Python APIs (Django, DRF, Flask)**, 1+ years in.
 
-- 🔐 **Now:** endpoint-security tooling and a cloud and SaaS identity-scanning pipeline across 8 platforms
+- 🔐 **Now:** endpoint-security tooling and a cloud and SaaS identity scanner across AWS, Azure, GCP, Okta and more
 - ⚡ **Before:** async, real-time systems (Celery, WebSockets, Redis) and OpenAI integrations at Barq
 - 🧠 **On the side:** RAG and API projects, such as Unfurl and Paper-Mind
 
@@ -48,24 +48,23 @@ I care about clean, scalable, production-ready backends.
 
 ### Backend Engineer — Broadstone Technologies, LLC · Aug 2026 – Present
 
-**Tech:** Python, Django, PowerShell, AWS, GCP, Azure, Microsoft Graph, HMAC
+**Tech:** Python, Flask, Wazuh, AWS, GCP, Azure, Microsoft Graph, Okta
 
-* Designed and built an **escrow service for disk-encryption recovery keys**, with keys collected from devices, **encrypted at rest** and released only through authenticated endpoints
-* Designed and built a **cloud and SaaS identity-scanning pipeline** across 8 providers, with standardized account and access fields
-* Implemented **device-vs-cloud identity matching** and **access-exposure detection** to surface cross-platform security gaps across company devices and accounts
-* Owned reliability of an **endpoint-security data pipeline**, fixing cross-platform data bugs and building a **cross-OS patch-status sync** mechanism
-* Built **real-time device-offline email alerting** via **HMAC-signed webhooks**
+* Built the **Flask endpoint** that receives device-offline notifications from **Wazuh** and emails alerts to customers, covering **nearly 700 monitored devices** and replacing a legacy integration. Alerts show the last keep-alive as the disconnect time and pass DKIM
+* Extended the **cloud identity scanner** across AWS, Azure, Microsoft Graph, GCP, Google Workspace, Slack, GitHub, Dropbox, Zoom and Okta with MFA, last-login, access-key, group and policy fields
+* Added **device-vs-cloud identity matching** and fixed failed scans being reported as empty
+* Added search, filtering, and live-query retry and timeout handling to the **EDR host-management API**, plus host cleanup rules
 
 ### Associate Software Engineer — Barq Dev · Aug 2025 – Jul 2026
 
 **Tech:** Python, Django, Django REST Framework, PostgreSQL, Redis, Celery, Django Channels, WebSockets, OpenAI, Piper TTS, FCM
 
-* Designed and developed **scalable RESTful APIs** using Python, Django, and Django REST Framework (DRF), implementing authentication, permissions, filtering, and pagination
-* Built **backend business logic and transactional workflows** with optimized PostgreSQL ORM queries, improving performance and scalability across core modules
-* Implemented **asynchronous processing pipelines** with Celery for background jobs, ETL workflows, pantry image scanning, and URL-to-recipe ingestion
-* Developed a **real-time notification platform** using Django Channels, WebSockets, Redis, Celery, and FCM push notifications, with JWT authentication and user presence tracking
-* Integrated **OpenAI LLMs** and **Text-to-Speech (Piper TTS)** for intelligent automation and audio-based user experiences, with caching and asynchronous processing
-* Eliminated **N+1 queries** across recipes, cart, pantry, and admin modules using reusable ORM optimization patterns, and added **Redis caching, logging, and custom middleware** for performance and observability
+* Designed and shipped **scalable REST APIs** serving a React client, with token authentication, granular permissions, filtering and pagination
+* Architected **relational schemas** and transactional workflows on **PostgreSQL**, modelling core product domains (recipes, cart, pantry) and enforcing data integrity at the database layer
+* Eliminated **N+1 patterns across four modules** using reusable ORM optimization patterns, **cutting multiple endpoints from 250+ queries to under 10**, and added **Redis caching** to cut repeat response times
+* Built a **real-time notification service** using WebSockets, Redis and Celery with **JWT authentication** and user presence tracking
+* Implemented **asynchronous pipelines** with Celery for background jobs, ETL workflows, image scanning and URL-to-recipe ingestion, and improved observability with structured logging and custom middleware
+* Integrated the **OpenAI API** and Piper TTS for intelligent automation and audio-based user experiences, with caching and asynchronous processing
 
 ---
 
