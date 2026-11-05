@@ -112,7 +112,7 @@ I care about clean, scalable, production-ready backends.
 - Implemented **HMAC-signed URLs** that double as cache keys — any tampered parameter is rejected with a 403, and identical requests are served from cache
 - Built a **Stripe-style API key system** with SHA-256 hashed keys, showing the raw key only once, alongside a custom DRF auth class for `Bearer` token support
 - Added **per-key rate limiting and plan-based quotas** (fixed-window, Redis-backed) with standard `X-RateLimit-*` / `Retry-After` headers, plus usage analytics for API consumers
-- Sold a **Pro plan through Stripe Checkout and the customer portal**, with signature-verified webhooks that re-read the subscription from Stripe, so duplicate or out-of-order events can't leave the wrong plan
+- Built **Pro-plan billing with Stripe Checkout and the customer portal**, with signature-verified webhooks that re-read the subscription from Stripe, so duplicate or out-of-order events can't leave the wrong plan
 - Hardened the logo-fetch feature against **SSRF** — blocks private IP ranges and cloud metadata endpoints, disallows redirects, and enforces size/time limits
 
 ---
