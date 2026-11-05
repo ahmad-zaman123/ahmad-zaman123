@@ -104,7 +104,7 @@ I care about clean, scalable, production-ready backends.
 
 *An API that turns any URL into a social preview image, with signed URLs, API keys and rate limiting.*
 
-**Tech:** Django REST Framework, PostgreSQL (Neon), Redis (Upstash), React, Pillow
+**Tech:** Django REST Framework, PostgreSQL (Neon), Redis (Upstash), Stripe, React, Pillow
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-22c55e?style=for-the-badge&logo=vercel&logoColor=white)](https://unfurl-one.vercel.app/) [![Source Code](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahmad-zaman123/Unfurl)
 
@@ -112,6 +112,7 @@ I care about clean, scalable, production-ready backends.
 - Implemented **HMAC-signed URLs** that double as cache keys — any tampered parameter is rejected with a 403, and identical requests are served from cache
 - Built a **Stripe-style API key system** with SHA-256 hashed keys, showing the raw key only once, alongside a custom DRF auth class for `Bearer` token support
 - Added **per-key rate limiting and plan-based quotas** (fixed-window, Redis-backed) with standard `X-RateLimit-*` / `Retry-After` headers, plus usage analytics for API consumers
+- Sold a **Pro plan through Stripe Checkout and the customer portal**, with signature-verified webhooks that re-read the subscription from Stripe, so duplicate or out-of-order events can't leave the wrong plan
 - Hardened the logo-fetch feature against **SSRF** — blocks private IP ranges and cloud metadata endpoints, disallows redirects, and enforces size/time limits
 
 ---
