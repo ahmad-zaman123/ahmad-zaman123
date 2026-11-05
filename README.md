@@ -1,12 +1,12 @@
 # 👋 Hi, I'm Ahmad Zaman
 
-🚀 **Backend Engineer · Python & Django · Cloud and endpoint security**
+🚀 **Backend Engineer · Python, Django & FastAPI · AI agents and automation**
 
 Building production **Python APIs (Django, DRF, Flask)**, 1+ years in.
 
 - 🔐 **Now:** endpoint-security tooling and a cloud and SaaS identity scanner across AWS, Azure, GCP, Okta and more
 - ⚡ **Before:** async, real-time systems (Celery, WebSockets, Redis) and OpenAI integrations at Barq
-- 🧠 **On the side:** RAG and API projects, such as Unfurl and Paper-Mind
+- 🤖 **On the side:** AI agents, RAG and CRM automation, such as Tendline and Inkfold
 
 I care about clean, scalable, production-ready backends.
 
@@ -70,6 +70,36 @@ I care about clean, scalable, production-ready backends.
 
 ## 🚀 Featured Projects
 
+### 🤝 Tendline — AI Customer Support Agent
+
+*An AI support agent that answers from help docs, checks real orders and hands refunds to a person.*
+
+**Tech:** FastAPI, PostgreSQL + pgvector, Google Gemini, React (Vite)
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-22c55e?style=for-the-badge&logo=vercel&logoColor=white)](https://tendline-alpha.vercel.app/) [![Source Code](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahmad-zaman123/Tendline)
+
+- Answers policy questions **only from the help docs**, showing the exact passage it used, with pgvector retrieval
+- Gives the model **order-lookup tools that are scoped in code** to the signed-in customer, so no prompt can reach someone else's order
+- **Hands refunds, cancellations and anything uncovered to a person**: the ticket lands in a support queue with the full history, an agent replies in the same chat, and the AI resumes once it's resolved
+- Try-without-sign-up demo plays the customer and the support team side by side, with rate limits and **104 automated tests** in CI
+
+---
+
+### 🧾 Inkfold — Document-to-CRM Automation
+
+*Turns invoices, receipts, business cards, lead forms and resumes into CRM records, with a person checking first.*
+
+**Tech:** FastAPI, PostgreSQL (Neon), Google Gemini, HubSpot, Pipedrive, Google Sheets API, n8n, React (Vite)
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-22c55e?style=for-the-badge&logo=vercel&logoColor=white)](https://inkfold-nine.vercel.app/) [![Source Code](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahmad-zaman123/Inkfold)
+
+- Upload a file or **forward it by email**: Gemini reads it, code validates every field, and the review screen **highlights where each value came from** on the original
+- One click saves it to **HubSpot or Pipedrive**, or as a row in **Google Sheets** (service-account auth), with a **duplicate warning** before anything is written
+- Measured accuracy with an eval script: **312 of 312 fields right** on a 24-document test set, including European and Swiss number formats
+- Email intake runs on a schedule through **n8n and GitHub Actions**, with **259 tests** across the backend and workflows
+
+---
+
 ### 🔗 Unfurl — Social Preview Cards as an API
 
 *An API that turns any URL into a social preview image, with signed URLs, API keys and rate limiting.*
@@ -102,17 +132,10 @@ I care about clean, scalable, production-ready backends.
 
 ---
 
-### 🛒 Blissful — Full-Stack E-commerce Storefront
+### 🧩 More
 
-*A full-stack skincare storefront with cart, checkout and live card payments.*
-
-**Tech:** Node.js, Express, MongoDB (Mongoose), React, Safepay
-
-[![Live Demo](https://img.shields.io/badge/Live_Demo-22c55e?style=for-the-badge&logo=vercel&logoColor=white)](https://blissful-template.vercel.app/) [![Source Code](https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ahmad-zaman123/Blissful-Template)
-
-- Designed and built a **REST API** (Express + Mongoose) covering products, cart, orders, and payments
-- Integrated **Safepay** card payments with **HMAC-verified webhooks** that update order status server-side with no client polling, plus a **Cash-on-Delivery fallback**
-- Built a **session-based cart** so customers can check out without an account, with server-side search, category and skin-concern filters, price-range queries and real-time stock toggles
+- 🛒 **[Blissful](https://github.com/ahmad-zaman123/Blissful-Template)** — Express + MongoDB storefront with Safepay card payments and HMAC-verified webhooks · [live](https://blissful-template.vercel.app/)
+- 💰 **[Expense Tracker](https://github.com/ahmad-zaman123/Expense-Tracker)** — DRF + React finance dashboard with budgets, recurring-payment detection and duplicate-safe CSV imports · [live](https://expense-tracker-three-vert-61.vercel.app/)
 
 ---
 
@@ -122,6 +145,7 @@ I care about clean, scalable, production-ready backends.
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
 ![DRF](https://img.shields.io/badge/Django_REST-ff1709?style=flat&logo=django&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)
@@ -135,10 +159,15 @@ I care about clean, scalable, production-ready backends.
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat&logo=powershell&logoColor=white)
 ![HMAC](https://img.shields.io/badge/HMAC-Signing-444444?style=flat)
 
-### 🤖 AI
+### 🤖 AI & Automation
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
 ![Google Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white)
 ![RAG](https://img.shields.io/badge/RAG-Pipelines-444444?style=flat)
+![AI Agents](https://img.shields.io/badge/AI_Agents-Tool_Calling-444444?style=flat)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white)
+![HubSpot](https://img.shields.io/badge/HubSpot-FF7A59?style=flat&logo=hubspot&logoColor=white)
+![Pipedrive](https://img.shields.io/badge/Pipedrive-017737?style=flat&logo=pipedrive&logoColor=white)
+![Google Sheets](https://img.shields.io/badge/Google_Sheets-34A853?style=flat&logo=googlesheets&logoColor=white)
 
 ### 🎨 Frontend
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
@@ -152,6 +181,7 @@ I care about clean, scalable, production-ready backends.
 ![FalkorDB](https://img.shields.io/badge/FalkorDB-Graph_DB-B22222?style=flat)
 
 ### ⚙️ DevOps & Tools
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
@@ -163,7 +193,8 @@ I care about clean, scalable, production-ready backends.
 
 ## 🌱 Currently Exploring
 
-- Endpoint security tooling
+- AI agents that act safely on real data, with people in the loop
+- Workflow automation across CRMs, helpdesks and internal tools
 - Identity and access security across cloud and SaaS platforms
 - System design for scalable backend architectures
 - Async processing, background workers, and AI-powered backends
