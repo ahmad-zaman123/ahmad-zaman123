@@ -1,22 +1,22 @@
 {
   "username": "ahmad-zaman123",
-  "generated_at": "2026-11-07T13:01:36Z",
+  "generated_at": "2026-11-08T13:25:24Z",
   "range": {
-    "start": "2025-11-02",
+    "start": "2025-11-09",
+    "end": "2026-11-08"
+  },
+  "total_contributions": 3272,
+  "active_days": 227,
+  "avg_per_active_day": 14.4,
+  "current_streak": {
+    "length": 40,
+    "start": "2026-09-29",
     "end": "2026-11-07"
   },
-  "total_contributions": 3283,
-  "active_days": 229,
-  "avg_per_active_day": 14.3,
-  "current_streak": {
-    "length": 39,
-    "start": "2026-09-29",
-    "end": "2026-11-06"
-  },
   "longest_streak": {
-    "length": 39,
+    "length": 40,
     "start": "2026-09-29",
-    "end": "2026-11-06"
+    "end": "2026-11-07"
   },
   "best_day": {
     "date": "2026-10-14",
@@ -25,7 +25,7 @@
   "monthly": [
     {
       "month": "2025-11",
-      "total": 191
+      "total": 149
     },
     {
       "month": "2025-12",
@@ -73,45 +73,10 @@
     },
     {
       "month": "2026-11",
-      "total": 175
+      "total": 206
     }
   ],
   "days": [
-    {
-      "date": "2025-11-02",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-11-03",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-11-04",
-      "count": 11,
-      "level": 1
-    },
-    {
-      "date": "2025-11-05",
-      "count": 15,
-      "level": 2
-    },
-    {
-      "date": "2025-11-06",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-11-07",
-      "count": 16,
-      "level": 2
-    },
-    {
-      "date": "2025-11-08",
-      "count": 0,
-      "level": 0
-    },
     {
       "date": "2025-11-09",
       "count": 0,
@@ -1929,6 +1894,11 @@
     },
     {
       "date": "2026-11-07",
+      "count": 31,
+      "level": 3
+    },
+    {
+      "date": "2026-11-08",
       "count": 0,
       "level": 0
     }
